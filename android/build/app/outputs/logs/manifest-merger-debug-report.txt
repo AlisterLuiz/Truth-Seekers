@@ -1,0 +1,135 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\bc4afd80dc0f1e778f503b2b73098699\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\8647cbbcf252f8d2f0fa4964d74960cc\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\5364ab889c54507f1a369590ee8ad1a8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\f429bcabce1111d20b1ecb55321e9ab7\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\0a1d67af67ac2b69c607dd1e038f8eb9\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\2c8f672ff879eb46d5b97b42e8a106cc\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\35641475d9c5edb01760a223274dfca8\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\627399433cb04a660cf7b6a12aa85656\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\80acf4ced0b9cbcc5b78194938e55693\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\c6dce57d48fb3191524f5ccb294d9ceb\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\41fe674787ee8bb6d87ba7c589551294\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\3849ae6ef251937da2dbc8bfd52f442d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\ae0cf0b2fc26b779e0c9b290b3139314\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:2:5-37
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:8:5-46:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\2c8f672ff879eb46d5b97b42e8a106cc\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\2c8f672ff879eb46d5b97b42e8a106cc\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\3849ae6ef251937da2dbc8bfd52f442d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\3849ae6ef251937da2dbc8bfd52f442d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\2c8f672ff879eb46d5b97b42e8a106cc\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:11:9-43
+	android:name
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:9:9-57
+activity#com.example.mobile_app.MainActivity
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:12:9-40:20
+	android:launchMode
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:14:13-43
+	android:hardwareAccelerated
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:18:13-55
+	android:configChanges
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:16:13-163
+	android:theme
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:13:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:23:13-26:17
+	android:resource
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:25:15-52
+	android:name
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:24:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:32:13-35:17
+	android:resource
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:34:15-61
+	android:name
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:33:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:37:17-68
+	android:name
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:38:27-74
+meta-data#flutterEmbedding
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:43:9-45:33
+	android:value
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:45:13-30
+	android:name
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml:44:13-44
+uses-sdk
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\bc4afd80dc0f1e778f503b2b73098699\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\bc4afd80dc0f1e778f503b2b73098699\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\8647cbbcf252f8d2f0fa4964d74960cc\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\8647cbbcf252f8d2f0fa4964d74960cc\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\5364ab889c54507f1a369590ee8ad1a8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\5364ab889c54507f1a369590ee8ad1a8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\f429bcabce1111d20b1ecb55321e9ab7\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\f429bcabce1111d20b1ecb55321e9ab7\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\0a1d67af67ac2b69c607dd1e038f8eb9\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\0a1d67af67ac2b69c607dd1e038f8eb9\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\2c8f672ff879eb46d5b97b42e8a106cc\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\2c8f672ff879eb46d5b97b42e8a106cc\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\35641475d9c5edb01760a223274dfca8\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\35641475d9c5edb01760a223274dfca8\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\627399433cb04a660cf7b6a12aa85656\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\627399433cb04a660cf7b6a12aa85656\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\80acf4ced0b9cbcc5b78194938e55693\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\80acf4ced0b9cbcc5b78194938e55693\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\c6dce57d48fb3191524f5ccb294d9ceb\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\c6dce57d48fb3191524f5ccb294d9ceb\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\41fe674787ee8bb6d87ba7c589551294\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\41fe674787ee8bb6d87ba7c589551294\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\3849ae6ef251937da2dbc8bfd52f442d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\3849ae6ef251937da2dbc8bfd52f442d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\ae0cf0b2fc26b779e0c9b290b3139314\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\alist\.gradle\caches\transforms-2\files-2.1\ae0cf0b2fc26b779e0c9b290b3139314\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from D:\University Files\VSC\EOSIO-Virtual-Hackathon\mobile_app\android\app\src\debug\AndroidManifest.xml:6:22-64

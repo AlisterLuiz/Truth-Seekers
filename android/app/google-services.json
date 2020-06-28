@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "133190663906",
+    "firebase_url": "https://eosio-511fa.firebaseio.com",
+    "project_id": "eosio-511fa",
+    "storage_bucket": "eosio-511fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133190663906:android:46a07e259400bdc07f68bb",
+        "android_client_info": {
+          "package_name": "com.eosio.fake_news_detector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133190663906-2fa55metmc8a430j6q4359gdvap94o5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3mVIpyZz4spLbRiFtLOOQulO8Anq3k70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133190663906-2fa55metmc8a430j6q4359gdvap94o5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
