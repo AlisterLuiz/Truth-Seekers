@@ -53,23 +53,11 @@ class WelcomePage extends StatelessWidget {
                 ),
               ],
             ),
-            InkWell(
-              onTap: () {
-                Provider.of<CurrentIndexProvider>(context, listen: false)
-                    .setIndex(1);
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => VerificationComplete(type: 'Trusted'),
-                  ),
-                );
-              },
-              child: Text(
-                'View More',
-                style: TextStyle(
-                  color: Color(0xffA5A5A5),
-                  fontSize: 16,
-                ),
+            Text(
+              'View More',
+              style: TextStyle(
+                color: Color(0xffA5A5A5),
+                fontSize: 16,
               ),
             ),
           ],
@@ -103,7 +91,7 @@ class WelcomePage extends StatelessWidget {
                 },
                 child: Container(
                   margin: EdgeInsets.all(5.0),
-                  width: 170.0,
+                  width: 200.0,
                   child: Card(
                     color: Theme.of(context).cardColor,
                     semanticContainer: true,
@@ -120,7 +108,7 @@ class WelcomePage extends StatelessWidget {
                           image: NetworkImage(articles[index].articleImage),
                           fit: BoxFit.cover,
                           height: 100,
-                          width: 170,
+                          width: 200,
                         ),
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 8.0),
@@ -136,20 +124,41 @@ class WelcomePage extends StatelessWidget {
                                 style: TextStyle(fontSize: 13),
                                 overflow: TextOverflow.ellipsis,
                                 textAlign: TextAlign.justify,
-                                maxLines: 3,
+                                maxLines: 2,
                               ),
                               SizedBox(
                                 height: 5,
                               ),
-                              Text(
-                                capitalize(articles[index]
-                                    .source['name']
-                                    .toString()
-                                    .split('.')[0]),
-                                style: TextStyle(
-                                  fontSize: 14,
-                                  color: Color(0xffA5A5A5),
-                                ),
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    capitalize(articles[index]
+                                        .source['name']
+                                        .toString()
+                                        .split('.')[0]),
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: Color(0xffA5A5A5),
+                                    ),
+                                  ),
+                                  Row(
+                                    children: [
+                                      Icon(
+                                        Icons.star,
+                                        color: Colors.orange,
+                                      ),
+                                      SizedBox(
+                                        width: 2,
+                                      ),
+                                      Text(
+                                        articles[index].rating.toString(),
+                                       style: TextStyle(color: Colors.orange),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -252,20 +261,20 @@ class WelcomePage extends StatelessWidget {
                       children: [
                         getCases(
                           'Confirmed',
-                          '6.15M',
-                          '116K',
+                          '10M',
+                          '180K',
                           Color(0xffFFA726),
                         ),
                         getCases(
                           'Recovered',
-                          '2.64M',
+                          '5.07M',
                           null,
                           Color(0xff7CB342),
                         ),
                         getCases(
                           'Deaths',
-                          '372K',
-                          '5,017',
+                          '499K',
+                          '6,879',
                           Color(0xffE53935),
                         ),
                       ],

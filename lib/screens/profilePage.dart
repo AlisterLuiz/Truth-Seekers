@@ -40,8 +40,8 @@ class _ProfilePageState extends State<ProfilePage> {
                   shape: BoxShape.circle,
                 ),
                 child: CircleAvatar(
-                  backgroundImage:
-                      NetworkImage('https://i.imgur.com/SEdmZpC.jpg'),
+                  backgroundImage: NetworkImage(
+                      'https://avatars3.githubusercontent.com/u/5159405?s=400&u=09c788de985a0e08509f69ab307344fcc47b0af6&v=4'),
                   maxRadius: 65,
                 ),
               ),
@@ -49,18 +49,42 @@ class _ProfilePageState extends State<ProfilePage> {
                 height: MediaQuery.of(context).size.height * 0.02,
               ),
               Text(
-                'Tom Smith',
+                'Haris Foley',
                 style: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.w500,
                 ),
               ),
+              SizedBox(
+                height: MediaQuery.of(context).size.height * 0.01,
+              ),
               Text(
-                'Reader',
+                'Validator',
                 style: TextStyle(
                   color: Color(0xffA5A5A5),
                   fontSize: 16,
                 ),
+              ),
+              SizedBox(
+                height: MediaQuery.of(context).size.height * 0.01,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    'assets/images/medal.png',
+                    height: 50,
+                    width: 50,
+                  ),
+                  SizedBox(
+                    width: 20,
+                  ),
+                  Image.asset(
+                    'assets/images/rating.png',
+                    height: 50,
+                    width: 50,
+                  ),
+                ],
               ),
               SizedBox(
                 height: MediaQuery.of(context).size.height * 0.02,

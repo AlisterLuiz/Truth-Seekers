@@ -202,18 +202,42 @@ class _SearchPageState extends State<SearchPage> {
                                         height: 5,
                                       ),
                                       Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
                                         children: [
-                                          Icon(
-                                            FontAwesomeIcons.checkCircle,
-                                            color: Colors.green,
+                                          Row(
+                                            children: [
+                                              Icon(
+                                                FontAwesomeIcons.checkCircle,
+                                                color: Colors.green,
+                                              ),
+                                              SizedBox(width: 10),
+                                              Text(
+                                                articles[index].source['name'],
+                                                style: TextStyle(
+                                                  fontSize: 14,
+                                                  color: Color(0xffA5A5A5),
+                                                ),
+                                              ),
+                                            ],
                                           ),
-                                          SizedBox(width: 10),
-                                          Text(
-                                            articles[index].source['name'],
-                                            style: TextStyle(
-                                              fontSize: 14,
-                                              color: Color(0xffA5A5A5),
-                                            ),
+                                          Row(
+                                            children: [
+                                              Icon(
+                                                Icons.star,
+                                                color: Colors.orange,
+                                              ),
+                                              SizedBox(
+                                                width: 2,
+                                              ),
+                                              Text(
+                                                articles[index]
+                                                    .rating
+                                                    .toString(),
+                                                style: TextStyle(
+                                                    color: Colors.orange),
+                                              ),
+                                            ],
                                           ),
                                         ],
                                       ),

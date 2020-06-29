@@ -1,3 +1,4 @@
+import 'package:TruthSeekers/models/verificationModel.dart';
 import 'package:TruthSeekers/utilities/index.dart';
 
 class VerificationPage extends StatefulWidget {
@@ -8,6 +9,8 @@ class VerificationPage extends StatefulWidget {
 class _VerificationPageState extends State<VerificationPage> {
   /// Active image file
   File _imageFile;
+  Future<Verification> verificationText;
+  Future<Verification> verificationUrl;
 
   /// Cropper plugin
   Future<void> _cropImage() async {
@@ -38,15 +41,9 @@ class _VerificationPageState extends State<VerificationPage> {
     setState(() => _imageFile = null);
   }
 
-  
-
   Widget build(BuildContext context) {
-    // final response = await http.get(
-    //   '',
-    //   headers: <String, String>{
-    //     'cache-control': 'no-cache',
-    //   },
-    // );
+    verificationText = createText();
+    verificationUrl = createUrl();
     return Scaffold(
       backgroundColor: Theme.of(context).backgroundColor,
       body: DefaultTabController(
@@ -149,8 +146,8 @@ class _VerificationPageState extends State<VerificationPage> {
                   height: MediaQuery.of(context).size.height * 0.8,
                   child: TabBarView(
                     children: [
-                      getTextField(context, 1),
-                      getTextField(context, 2),
+                      getTextField(context, verificationText, 1),
+                      getTextField(context, verificationUrl, 2),
                       Container(
                         child: Column(
                           children: [

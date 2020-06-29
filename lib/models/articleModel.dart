@@ -1,11 +1,11 @@
 class Articles {
-  
   dynamic author;
   dynamic content;
   dynamic description;
   dynamic publishedAt;
   // dynamic sourceID;
   // dynamic sourceName;
+  dynamic rating;
   dynamic source;
   dynamic title;
   dynamic url;
@@ -17,6 +17,7 @@ class Articles {
       this.description,
       this.publishedAt,
       this.source,
+      this.rating,
       // this.sourceID,
       // this.sourceName,
       this.title,
@@ -31,6 +32,7 @@ class Articles {
       content: json['content'] ?? '',
       description: json['description'] ?? '',
       publishedAt: json['publishedAt'] ?? '',
+      rating: json['rating'] ?? '',
       // sourceID: json['source']['id'] ?? '',
       // sourceName: json['source']['name'] ?? '',
       source: json['source'] ?? '',
